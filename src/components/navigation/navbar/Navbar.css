@@ -2,8 +2,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: rgba(217, 238, 190, 0.2);
+      background-color: rgb(17, 51, 14, 0.2);
       padding: 10px 50px;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.7);
   }
 
   .logo-container {
@@ -18,6 +19,7 @@
   }
 
   .logo-container p {
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
       color: var(--font-color);
       font-size: 15px;
       font-weight: 600;
@@ -36,6 +38,7 @@
   }
 
   .tabs-container a {
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
       text-decoration: none;
       color: var(--font-color);
       font-size: 16px;

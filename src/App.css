@@ -8,8 +8,11 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background: var(--color-bg);
+.main {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: var(--color-bg);
 }
 
 a {

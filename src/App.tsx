@@ -1,13 +1,12 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { Navbar, IOform } from "./components";
 
 function App() {
   return (
-    <>
-      <div>
-        <Navbar />
-      </div>
-    </>
+    <div className="main">
+      <Navbar />
+      <IOform />
+    </div>
   );
 }
 

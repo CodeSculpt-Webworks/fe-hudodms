@@ -1,7 +1,14 @@
-export const TextInput = () => {
+import "./TextInput.css";
+
+type TextInputProps = {
+  style?: React.CSSProperties;
+};
+
+export const TextInput = ({ style }: TextInputProps) => {
   return (
-    <div className="textinput-container">
-      <input type="text" />
+    <div className="textinput-container" style={style}>
+      <p>Text Input</p>
+      <input type="text" placeholder="input text" />
     </div>
   );
 };

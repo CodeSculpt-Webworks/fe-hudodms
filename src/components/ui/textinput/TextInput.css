@@ -1,20 +1,23 @@
 .textinput-container {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     background-color: white;
     height: auto;
     border-radius: 5px;
+    width: 100px;
     border: 1px solid rgba(0, 0, 0, 0.70);
 }
 
 .textinput-container p {
-    font-size: 5px;
+    margin-left: 5px;
+    font-size: 10px;
     color: black;
 }
 
 .textinput-container input {
     margin-top: 0px;
     border-radius: 0px 0px 5px 5px;
-    border: transparent;
     outline-width: 0px;
+    padding-left: 5px;
+    border: transparent;
 }

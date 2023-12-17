@@ -8,7 +8,7 @@ export const TextInput = ({ style }: TextInputProps) => {
   return (
     <div className="textinput-container" style={style}>
       <p>Text Input</p>
-      <input type="text" placeholder="input text" />
+      <input type="text" />
     </div>
   );
 };

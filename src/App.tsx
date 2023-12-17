@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div>
-        <TextInput />
+        <TextInput label="tits" />
       </div>
     </>
   );

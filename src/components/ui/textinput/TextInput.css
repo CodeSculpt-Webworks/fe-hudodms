@@ -10,7 +10,7 @@
 
 .textinput-container p {
     font-size: 10px;
-    color: black;
+    color: var(--font-color);
     text-indent: 5px;
     letter-spacing: 1px;
     font-weight: lighter;

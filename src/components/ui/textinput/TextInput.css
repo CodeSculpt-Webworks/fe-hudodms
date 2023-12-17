@@ -9,9 +9,11 @@
 }
 
 .textinput-container p {
-    margin-left: 5px;
     font-size: 10px;
     color: black;
+    text-indent: 5px;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 
 .textinput-container input {
@@ -20,4 +22,5 @@
     outline-width: 0px;
     padding-left: 5px;
     border: transparent;
+    font-size: 12px;
 }

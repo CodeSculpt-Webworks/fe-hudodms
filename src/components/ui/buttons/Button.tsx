@@ -1,7 +1,7 @@
 import "./Button.css";
 
 type ButtonProps = {
-  style: React.CSSProperties;
+  style?: React.CSSProperties;
   onClick?: () => void;
   label: string;
 };

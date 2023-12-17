@@ -3,13 +3,13 @@ import "./Button.css";
 type ButtonProps = {
   style: React.CSSProperties;
   onClick?: () => void;
-  buttonText: string;
+  label: string;
 };
 
-export const Button = ({ buttonText, onClick, style }: ButtonProps) => {
+export const Button = ({ label, onClick, style }: ButtonProps) => {
   return (
     <div className="button-container" style={style}>
-      <button onClick={onClick}>{buttonText}</button>
+      <button onClick={onClick}>{label}</button>
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import "./App.css";
-import { Button } from "./components";
+import { TextInput } from "./components";
+
 function App() {
   return (
     <>
       <div>
-        <Button buttonText="Button" style={{ width: "100px" }} />
+        <TextInput />
       </div>
     </>
   );

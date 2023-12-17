@@ -1,13 +1,10 @@
 import "./App.css";
-import { CogIcon, HomeIcon } from "./assets";
-
+import { Button } from "./components";
 function App() {
   return (
     <>
       <div>
-        <HomeIcon />
-        <CogIcon />
-        <p>jeikuuuu</p>
+        <Button buttonText="Button" style={{ width: "100px" }} />
       </div>
     </>
   );

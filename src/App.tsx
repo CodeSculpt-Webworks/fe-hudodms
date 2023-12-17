@@ -1,9 +1,14 @@
 import "./App.css";
+import { CogIcon, HomeIcon } from "./assets";
 
 function App() {
   return (
     <>
-      <p>jeikuuuu</p>
+      <div>
+        <HomeIcon />
+        <CogIcon />
+        <p>jeikuuuu</p>
+      </div>
     </>
   );
 }

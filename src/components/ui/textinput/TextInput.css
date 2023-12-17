@@ -32,8 +32,6 @@ input::placeholder {
     color: #667085;
 }
 
-/* Input field focus */
-input:focus {}
 
 .error {
     color: #db4437;

@@ -61,6 +61,7 @@
 }
 
 .modal-container {
+    transition: 0.3 ease;
     position: fixed;
     top: 50%;
     left: 50%;

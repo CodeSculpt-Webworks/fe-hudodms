@@ -99,14 +99,16 @@ export const IOform = () => {
             value={formData.title}
             onChange={(e) => handleInputChange("title", e.target.value)}
           />
-          <TextInput
-            label="Tracking Number"
-            style={halfWidthInputStyle}
-            value={formData.trackingNumber}
-            onChange={(e) =>
-              handleInputChange("trackingNumber", e.target.value)
-            }
-          />
+          <div className="sub1">
+            <TextInput
+              label="Tracking Number"
+              style={fullWidthInputStyle}
+              value={formData.trackingNumber}
+              onChange={(e) =>
+                handleInputChange("trackingNumber", e.target.value)
+              }
+            />
+          </div>
         </div>
         <div className="row2">
           <TextInput
@@ -115,12 +117,14 @@ export const IOform = () => {
             value={formData.from}
             onChange={(e) => handleInputChange("from", e.target.value)}
           />
-          <TextInput
-            label="To"
-            style={halfWidthInputStyle}
-            value={formData.to}
-            onChange={(e) => handleInputChange("to", e.target.value)}
-          />
+          <div className="sub2">
+            <TextInput
+              label="To"
+              style={fullWidthInputStyle}
+              value={formData.to}
+              onChange={(e) => handleInputChange("to", e.target.value)}
+            />
+          </div>
         </div>
         <div className="row3">
           <TextInput

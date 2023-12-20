@@ -1,5 +1,5 @@
 import "./App.css";
-import { Navbar, IOform } from "./components";
+import { Navbar, Navtab } from "./components";
 import { MandaueBridge } from "./assets";
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
         alt="mandaue-bridge"
       />
       <Navbar />
-      <IOform />
+      <br />
+      <Navtab />
     </div>
   );
 }
